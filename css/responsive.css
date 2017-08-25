@@ -1,0 +1,47 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 		.header_top_area p {
+    float: left;
+}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	#bs-example-navbar-collapse-1 {
+    margin-top: 10px;
+}
+	.header-right {
+    text-align: left;
+    margin-top: 5px;
+}
+.recent_blog {
+    margin-top: 30px;
+}
+ #call_to_action [class^="col"] {
+    text-align: center;
+}
+  
+  /*about-page
+    */
+    .breadcrum_content h4 {
+    float: left;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.banner_title h1 {
+    font-size: 40px !important;
+}
+.navbar-default .navbar-brand {
+    margin-left: 20px;
+}
+.recent_blog {
+    margin-top: 30px;
+}
+
+}
